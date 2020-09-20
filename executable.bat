@@ -1,0 +1,2 @@
+jar cfe executable.jar application.Main application/Main.class
+java --module-path "C:\Users\sionc\Downloads\Forcoding\Libraries\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml -jar executable.jar

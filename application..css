@@ -1,0 +1,57 @@
+.toggle-button {
+    -fx-base: white;
+    -fx-background-radius: 100px;
+    /*-fx-border-color: black;*/
+    -fx-padding: 0px 8.5px;
+    /*-fx-background-insets: 1px;*/
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.toggle-button:hover{
+    -fx-background-color: lightgray;
+
+}
+
+.radio-button{
+    -fx-focus-color: lightgray;
+    -fx-faint-focus-color: transparent;
+}
+
+
+.button{
+    -fx-base: white;
+    -fx-background-radius: 40px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: lightgray;
+}
+
+.tab{
+    -fx-focus-color: lightgray;
+}
+#minMaxOrAve{
+
+    -fx-font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    -fx-font-size: 15px;
+}
+
+#drop{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.text-field{
+    -fx-focus-color: lightgrey;
+    -fx-faint-focus-color: transparent;
+}
+
+.table-view{
+    -fx-focus-color: lightgrey;
+}
+/*.label{*/
+/*    -fx-font-weight: bold;*/
+/*}*/

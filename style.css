@@ -1,0 +1,88 @@
+.toggle-button {
+    -fx-base: white;
+    -fx-background-radius: 100px;
+    /*-fx-border-color: black;*/
+    -fx-padding: 0px 8.5px;
+    -fx-focus-color: lightgrey;
+    -fx-faint-focus-color: transparent;
+}
+
+.toggle-button:hover{
+    -fx-background-color: lightgray;
+
+}
+
+
+
+.button{
+    -fx-base: white;
+    -fx-background-radius: 40px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: lightgray;
+}
+
+.tab{
+    -fx-focus-color: lightgray;
+}
+#minMaxOrAve{
+
+    -fx-font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    -fx-font-size: 15px;
+}
+
+#drop{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-background-color: lightblue;
+
+}
+
+.text-field{
+    -fx-focus-color: lightgrey;
+    -fx-faint-focus-color: transparent;
+    /*-fx-background-insets: 5px;*/
+}
+
+.table-view{
+    -fx-background-color: whitesmoke;
+    -fx-focus-color: lightgrey;
+    -fx-text-fill: red;
+}
+
+.table-column{
+    -fx-background-color: lightblue;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+.table-column:hover{
+    -fx-background-color: skyblue;
+}
+
+/*.table-column:focused{*/
+/*    -fx-text-fill: red;*/
+/*    -fx-background-color: blue;*/
+/*}*/
+
+.table-cell {
+    /*-fx-padding: 0.166667em; !* 2px, plus border adds 1px *!*/
+    -fx-background-color: snow;
+    -fx-border-color: black -fx-table-cell-border-color transparent transparent;
+    -fx-cell-size: 2.0em; /* 24 */
+    -fx-text-fill: black  -fx-text-background-color;
+
+}
+
+
+
+
+#hi{
+    -fx-focus-color: lightgrey;
+    -fx-faint-focus-color: transparent;
+}
+
+
